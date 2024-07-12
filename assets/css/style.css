@@ -1,10 +1,23 @@
+html {
+    font-size: 62.5%;
+}
 body{
     margin: 0;
     padding: 0;
 }
+header{
+    width: 89vw;
+}
+.header-imagem{
+    text-align: center;
+}
 header img{
-    object-fit: contain;
-    width: 100vw;
-    display: inline-block;
-    border: 5px solid yellow;
+    object-fit: cover;
+    height: 49.2rem;
+    margin: 6rem 0 0 0;
+    border-radius: 2.5rem;
+}
+header h1{
+    font-weight: 900;
+    font-size: 5rem;
 }
